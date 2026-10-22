@@ -1,0 +1,37 @@
+h1{
+    color :crimson;
+margin-left: 20px;}
+
+p{font-size: 25px;}
+
+div.buttons{
+    width: 300px;
+    height: 200px;
+    border-style: dotted solid double;
+    border-width: thin medium thick;
+
+}
+
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(99 136 60);
+    background-color: chartreuse;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px grey;
+
+}
+
+button:hover{background-color: black;}
+
+button:active{
+    background-color: green;
+    box-shadow: 0 5px gray;
+    transform: translate(4px);
+}
